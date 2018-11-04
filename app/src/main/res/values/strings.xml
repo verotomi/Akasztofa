@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Akasztófa játék</string>
+    <string name="guess">Tippel</string>
+    <string name="label_button_up">&gt;</string>
+    <string name="label_button_down">&lt;</string>
+    <string name="playerWon">Gratulálok, nyertél! Szeretnél még egy játékot?</string>
+    <string name="playerLost">Vesztettél! Szeretnél még egy játékot?</string>
+    <string name="yes">Igen</string>
+    <string name="no">Nem</string>
+    <string name="text_Copyright">© 2018 - Verovszki Tamás"</string>
+</resources>

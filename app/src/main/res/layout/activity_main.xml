@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tamas.verovszki.akasztofa.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Linear_Layout_Top"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:padding="32dp"
+        >
+
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/Button_Down"
+            android:text="@string/label_button_down"
+            android:background="@drawable/buttonbackround"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/Text_View_Letter"
+            android:text="A"
+            android:textSize="36dp"
+            android:layout_marginHorizontal="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/orange"/>
+
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/Button_Up"
+            android:text="@string/label_button_up"
+            android:background="@drawable/buttonbackround"
+            android:layout_gravity="center_horizontal"/>/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Button_Guess"
+        android:text="@string/guess"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/Linear_Layout_Top"/>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/Image_View"
+        android:layout_below="@id/Button_Guess"
+        android:background="@drawable/akasztofa00"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Text_View_Copyright"
+        android:text="@string/text_Copyright"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="_ _ _ _ _"
+        android:textSize="36dp"
+        android:id="@+id/Text_View_Word"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/Text_View_Copyright"
+        />
+
+</RelativeLayout>
